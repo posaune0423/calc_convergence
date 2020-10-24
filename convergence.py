@@ -20,5 +20,5 @@ for i in range(0, 47):
 # plot dataframe
 plt.scatter(initial_gdppcs, growth_avgs)
 plt.ylabel('per capita growth rate, 2006-2017')
-plt.xlabel('log 2006 per capita gdp')
+plt.xlabel('log 2006 per capita gdp inprefecture')
 plt.show()
