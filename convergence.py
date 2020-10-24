@@ -17,6 +17,12 @@ for i in range(0, 47):
     growth_avgs.append(row.iloc[2:].mean())
 
 
+# if Correlation coefficient is needed, comment out here
+# s1=pd.Series(initial_gdppcs)
+# s2=pd.Series(growth_avgs)
+# res=s1.corr(s2)
+# print(res)
+
 # plot dataframe
 plt.scatter(initial_gdppcs, growth_avgs)
 plt.ylabel('per capita growth rate, 2006-2017')
